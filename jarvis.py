@@ -1,7 +1,7 @@
 
 from RealtimeSTT import AudioToTextRecorder
 import ollama
-from os import system
+#from os import system
 
 
 if __name__ == "__main__":
@@ -29,5 +29,5 @@ if __name__ == "__main__":
                 },
                 ])
                 print(response['message']['content'])
-                system('say ' + response['message']['content'])
+                #system('say ' + response['message']['content'])
                 
